@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despair Rofine Kyle</title>
+    <link rel="stylesheet" href="Design.css">
+    <style>
+    .container{
+        max-height: 10000px;
+        position: relative;
+        overflow:scroll;
+    }
+    .cover{
+        width: 1135px;
+        position: absolute;
+        z-index: 1;
+    }
+    .head{
+        position: absolute;
+        font-size: 14px;
+        margin-left: 140px;
+        z-index: 2;
+    }
+    .picture{
+
+        position: absolute;
+        z-index: 2;
+        height: 480px;
+        width: 260px;
+        margin-top: 50px;
+        margin-left: 80px;
+        border-radius: 20px;
+    }
+    .meet{
+        position: absolute;
+        font-size: 18px;
+        margin-left: 460px;
+        z-index: 2;
+        margin-top: 170px;
+        font-family: cursive;
+        font-weight: lighter;
+    }
+    .name{
+        position: absolute;
+        font-size: 44px;
+        margin-left: 400px;
+        z-index: 2;
+        margin-top: 230px;
+        font-family: cursive;
+        color: rgb(76, 99, 90);
+    }
+    .active{
+        position: absolute;
+        font-size: 18px;
+        margin-left: 460px;
+        z-index: 2;
+        margin-top: 320px;
+        font-family: cursive;
+        font-weight: lighter;
+    }
+    .book{
+        position: absolute;
+        font-size: 18px;
+        margin-left: 505px;
+        z-index: 2;
+        margin-top: 380px;
+        font-family: cursive;
+        font-weight: lighter;
+        border-radius: 5px;
+        background-color: beige;
+        cursor: pointer;
+    }
+    .book:hover{
+        opacity: 0.6;
+    }
+    .page2{
+
+        
+        margin-top: 500px;
+        z-index: 2;
+        margin-left: 1px;
+    }
+    .bring{
+        position: absolute;
+        z-index: 3;
+        font-size: 17px;
+        margin-top: -485px;
+        margin-left: 295px;
+        font-family: cursive;
+    }
+    .virtual{
+        position: absolute;
+        z-index: 3;
+        font-size: 40px;
+        margin-top: -420px;
+        margin-left: 200px;
+        font-family: cursive;
+        color: rgb(46, 99, 97);
+        background-color: azure;
+    }
+    .today{
+        position: absolute;
+        z-index: 3;
+        font-size: 18px;
+        margin-top: -300px;
+        margin-left: 150px;
+        font-family: cursive;
+        color: rgb(34, 46, 46);
+    }
+    .page3{
+        position: absolute;
+        margin-top:-30px ;
+        width: 1135px;
+    }
+    .aboutme{
+        position: absolute;
+        z-index: 2;
+        margin-top:40px ;
+        margin-left: 100px;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(60, 105, 106);
+        background-color: rgb(221, 233, 245);
+    }
+     .Aboutme{
+        position: absolute;
+        z-index: 2;
+        margin-top:115px ;
+        margin-left: 100px;
+        font-family: cursive;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(60, 105, 106);
+    }
+     .page4{
+        position: absolute;
+        margin-top:650px ;
+        width: 1135px;
+    }
+    .niche{
+        position: absolute;
+        z-index: 2;
+        margin-top:680px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+        background-color: rgb(214, 214, 135);
+        
+    }
+
+     .niches{
+        position: absolute;
+        z-index: 2;
+        margin-top:715px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+        
+    }
+     .service{
+        position: absolute;
+        z-index: 2;
+        margin-top:660px ;
+        margin-left: 500px;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+    }
+    .website{
+    
+        position: absolute;
+        z-index: 2;
+        margin-top:900px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+        background-color: rgb(214, 214, 135);  
+    }
+    .websites{
+    
+        position: absolute;
+        z-index: 2;
+        margin-top:910px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+    }
+    .support{
+    
+        position: absolute;
+        z-index: 2;
+        margin-top:1050px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+         background-color: rgb(214, 214, 135); 
+    }
+    .supports{
+    
+        position: absolute;
+        z-index: 2;
+        margin-top:1082px ;
+        margin-left: 60px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+    }
+    .media{
+       position: absolute;
+        z-index: 2;
+        margin-top:725px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+        font-weight: bolder;
+        background-color: rgb(214, 214, 135);
+          
+    }
+    .medias{
+        position: absolute;
+        z-index: 2;
+        margin-top:750px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+
+    }
+     .edit{
+       position: absolute;
+        z-index: 2;
+        margin-top:895px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+        font-weight: bolder; 
+        background-color: rgb(214, 214, 135);  
+    }
+    .editor{
+        position: absolute;
+        z-index: 2;
+        margin-top:930px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+    }
+     .data{
+       position: absolute;
+        z-index: 2;
+        margin-top:1075px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+        font-weight: bolder; 
+        background-color: rgb(214, 214, 135);  
+    }
+    .datas{
+        position: absolute;
+        z-index: 2;
+        margin-top:1110px ;
+        margin-left: 510px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+    }
+
+    .page5{
+        position: absolute;
+        margin-top:1290px ;
+        width: 1135px;
+        z-index: 1;
+    }
+    .tools{
+       position:absolute;
+       z-index:3;
+       margin-top:1300px;
+        margin-left: 350px;
+        font-family: cursive;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(43, 73, 74);
+        background-color: rgb(202, 216, 228);
+    }
+     .tech{
+       position:absolute;
+       z-index:3;
+       margin-top:1350px;
+        margin-left: 40px;
+        font-family: cursive;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(43, 73, 74);
+        display: inline-block;
+        transform: rotate(-40deg);
+    }
+    .office{
+       position:absolute;
+       z-index:3;
+       margin-top:1400px;
+       margin-left: 600px;
+       width: 450px;
+       height:250px;
+       border-radius: 20px;
+    }
+     .suite{
+       position:absolute;
+       z-index:3;
+       margin-top:1670px;
+       margin-left: 600px;
+       width: 450px;
+       height:250px;
+       border-radius: 20px;
+    }
+    .html{
+       position:absolute;
+       z-index:3;
+       margin-top:1500px;
+       margin-left: 200px;
+       width: 200px;
+       height:150px;
+       border-radius: 20px;
+    }
+    .capcut{
+       position:absolute;
+       z-index:3;
+       margin-top:1700px;
+       margin-left: 300px;
+       width: 80px;
+       height:80px;
+       border-radius: 20px;
+    }
+    .canva{
+       position:absolute;
+       z-index:3;
+       margin-top:1700px;
+       margin-left: 170px;
+       width: 150px;
+       height:auto;
+       border-radius: 20px;
+    }
+    .hour{
+        position: absolute;
+        margin-top:1950px ;
+        width: 1135px;
+        z-index: 1;
+    }
+    .working{
+        position:absolute;
+       z-index:3;
+       margin-top:1970px;
+        margin-left: 40px;
+        font-family: cursive;
+        font-size: 24px;
+        font-weight: normal;
+        color: rgb(43, 73, 74);
+        display: inline-block;
+        background-color: azure;
+        border-radius: 10px;
+
+    }
+    .hours{
+        position:absolute;
+       z-index:3;
+       margin-top:2016px;
+        margin-left: 40px;
+        font-family: cursive;
+        font-size: 45px;
+        font-weight: bold;
+        color: rgb(21, 100, 75);
+        display: inline-block;
+        background-color: rgb(179, 201, 148);
+         border-radius: 10px;
+
+    }
+    .box1{
+        position: absolute;
+         margin-top:2050px;
+         margin-left: 250px;
+        width: 400px;
+        height: 480px;
+        z-index: 4;
+        border: solid;
+        border-radius: 50px;
+        background-color: rgb(247, 247, 198);
+    }
+     .box2{
+        position: absolute;
+         margin-top:2050px;
+          margin-left: 700px;
+        width: 400px;
+        height: 480px;
+        z-index: 4;
+        border: solid;
+        border-radius: 50px;
+        background-color: rgb(247, 247, 198);
+    }
+     .part-time{
+        position: absolute;
+        z-index: 5;
+        margin-top:2090px;
+        margin-left: 335px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+     }
+     .brings{
+        position: absolute;
+        z-index: 5;
+        margin-top:2150px;
+        margin-left: 290px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+     }
+      .hourly{
+        position: absolute;
+        z-index: 5;
+        margin-top:2090px;
+        margin-left: 790px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(28, 50, 50);
+
+    }
+    .rates{
+       position: absolute;
+        z-index: 5;
+        margin-top:2150px;
+        margin-left: 743px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: normal;
+        color: rgb(28, 50, 50);
+    }
+     .page6{
+        position: absolute;
+        margin-top:2745px ;
+        width: 1135px;
+        z-index: 1;
+    }
+    .team{
+        position: absolute;
+        z-index: 2;
+        margin-top:2750px;
+        margin-left: 150px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(34, 139, 106);
+       
+     }
+     .call{
+        position: absolute;
+        z-index: 2;
+        margin-top:2770px;
+        margin-left: 100px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(8, 39, 29);
+        background-color: beige;
+       
+     }
+     .team{
+        position: absolute;
+        z-index: 2;
+        margin-top:2750px;
+        margin-left: 100px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(34, 139, 106);
+       
+     }
+     .with{
+        position: absolute;
+        z-index: 2;
+        margin-top:2750px;
+        margin-left: 900px;
+        font-family: cursive;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(20, 62, 49);
+       
+     }
+     .withme{
+        position: absolute;
+        z-index: 2;
+        margin-top:2750px;
+        margin-left: 840px;
+        font-family: cursive;
+        font-size: 38px;
+        font-weight: bold;
+        color: rgb(34, 139, 106);
+       
+     }
+     .one{
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        margin-top:2820px;
+        margin-left: 50px;
+        font-size: 37px;
+        font-weight: bold;
+        color: rgb(234, 241, 239); 
+        background-color: darkcyan;
+     }
+      .two{
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        margin-top:2940px;
+        margin-left: 50px;
+        font-size: 37px;
+        font-weight: bold;
+        color: rgb(234, 241, 239); 
+        background-color: darkcyan;
+     }
+      .three{
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        margin-top:3050px;
+        margin-left: 50px;
+        font-size: 37px;
+        font-weight: bold;
+        color: rgb(234, 241, 239); 
+        background-color: darkcyan;
+     }
+      .explo{
+        position: absolute;
+        z-index: 2;
+        margin-top:2820px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(10, 32, 25);
+       
+     }
+      .agree{
+        position: absolute;
+        z-index: 2;
+        margin-top:2940px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(10, 32, 25);
+       
+     }
+      .initiate{
+        position: absolute;
+        z-index: 2;
+        margin-top:3050px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(10, 32, 25);
+       
+     }
+        .explos{
+        position: absolute;
+        z-index: 2;
+        margin-top:2850px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(10, 32, 25);
+       
+     }
+     .agrees{
+        position: absolute;
+        z-index: 2;
+        margin-top:2970px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(10, 32, 25);
+       
+     }
+      .initiates{
+        position: absolute;
+        z-index: 2;
+        margin-top:3075px;
+        margin-left: 110px;
+        font-family: cursive;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(10, 32, 25);
+       
+     }
+       .calls{
+        position: absolute;
+        font-size: 18px;
+        margin-left: 865px;
+        width: 120px;
+        height: 80px;
+        z-index: 2;
+        margin-top:2940px;
+        font-family: cursive;
+        font-weight: lighter;
+        border-radius: 5px;
+        background-color: beige;
+        cursor: pointer;
+    }
+    .calls:hover{
+        opacity: 0.5;
+        
+    }
+
+    
+
+    </style>
+</head>
+<body class="body">
+    <div   class="container">
+        <div> <img src="covers.png" class="picture" > </div>
+    <div><img src="mine.jpg" class="cover">
+</div>
+    <h1 class="head">*CONCENTRATE ON WHAT TRULY MATTERS BY COLLABORATING WITH A TRUSTWORTHY VIRTUAL ASSISTANT*</h1>
+    <h3 class="meet">MEET YOUR VA</h3>
+    <div class="name">Rofine Kyle Despair</div>
+    <div class="active">Your Proactive Partner</div>
+    <div> <button class="book" title="Book a Call">Book a Call</button></div>
+   <div> <button class="book" title="View details" onclick="goTonumber()">Book a Call</button></div>
+   
+   <Script>
+    function goTonumber(){
+        window.location.href="information.html";
+    }
+   </Script>
+   <div> <img src="pages2.jpg" class="page2"> 
+</div>
+<h3 class="bring">Bring on a</h3>
+<h1 class="virtual">Virtual Assistant</h1>
+<h4 class="today">Today and watch your business flourish tomorrow.</h4>
+
+ <div>
+    <img src="aboutme.png" class="page3">
+    <div class="aboutme">ABOUT ME</div>
+    <div><p class="Aboutme">Hi! My name is Kyle. I am a motivated and hardworking individual who is passionate about learning new skills, <br>
+        especially in technology and online work.i have also experience in handling facebook Page. <br>
+       <br> I enjoy creating websites using HTML, CSS, and JavaScript ,canva for editing logo and image, <br>i have background and idea in video editing  since i am former handling fb page and continuously <br> 
+        improving my knowledge in web development.I am also interested in working as a Virtual Assistant,<br>
+         where I can help with tasks such as online research, basic website management,<br>
+ data entry, and digital organization. I am detail-oriented, reliable.
+My goal is to build my experience <br>
+ in the digital world while providing quality work and helping businesses grow online.</p></div>
+ </div>
+
+ <div><img src="page4.jpg" class="page4">
+</div>
+<div><p class="niche"> <b>'Niche'</b></p>
+    <p class="niches">*Social Media Management(SMM)<br>
+    *Data Entry(DE)<br>
+    *Customer Support(CS)<br>
+    *Website Designer(WD)<br>
+    *Video Editor(VE)<br>
+</p></div>
+<div ><p class="service">Services!</p></div>
+
+<div ><p class="website"> <U><b>Simple Website Designer </b></U> </p> <br>
+    <p class="websites">Creates and maintains websites to ensure<br>
+         they are visually appealing, user-friendly,<br>
+      and functional. tasks include designing layouts, <br>
+      updating content, optimizing performance,<br>
+       and assisting with website management<br>
+        using tools like HTML, and CSS.</p></div>
+<div >
+  <p class="support"> <U><b>Customer Support Virtual Assistant  </b></U><br> </p>
+     <p class="supports">I have pleasing personality to assist their customers <br>
+        by answering inquiries,responding to messages <br>
+         or emails, and resolving basic issues. <br>
+         Their role is to provide helpful and<br>
+          friendly support to ensure customer satisfaction <br>
+          and maintain good relationships with clients.</p>
+</div>
+<div>
+    <p class="media"><u><b>Social Media Manager(SMM)</b></u></p>
+    <p class="medias">I am very handson  doing online presence <br>
+        by managing social media accounts. <br>
+        Their tasks include creating and scheduling posts, <br>
+        responding to messages and comments, <br>
+        monitoring engagement, and helping build a strong <br>
+         connection with the audience.</p>
+</div>
+<div>
+    <p class="edit"><u><b>Video Editor</b></u></p>
+    <p class="editor">  helps businesses and creators<br>
+         produce high-quality video content.<br>
+         Their tasks include cutting and arranging footage, <br>
+         adding effects, transitions, and music, and<br>
+          ensuring videos are polished and engaging for social media, <br>
+          websites, or marketing campaigns.</p>
+</div>
+<div>
+    <p class="data"><u><b>Data Entry</b></u></p>
+    <p class="datas">Responsible for accurately entering, updating, and <br>
+     organizing information in digital systems or spreadsheets. <br>
+     Their work helps businesses keep records organized, <br>
+     manage data efficiently, and maintain accurate <br>
+      information for daily operations.</p>
+</div>
+<div>
+    <img src="page5.avif" class="page5">
+</div>
+<div ><p class="tools">TOOLS I AM PROFICIENT IN</p></div>
+<div><p class="tech">Tech Stack</p></div>
+<div>
+    <img src="office.jpg" class="office">
+    <img src="suite.png" class="suite">
+    <img src="html.jpg" class="html">
+    <img src="capcut.png" class="capcut">
+    <img src="canva.webp" class="canva">
+
+</div>
+<div>
+    <img src="hour.jpg" class="hour">
+</div>
+<div class="working">Working <br></div>
+  <div> <h1 class="hours"> HOURS </h1></div>
+  <div class="box1"></div>
+  <div><p class="part-time"><u>Part-time or Full-time Support</u></p></div>
+  <div class="brings">*Bring me on board based on the type of <br>
+     assistance you require, whether <br>
+     it's part-time or full-time support<br>
+      for seamless operations <br>
+      <br><br>
+      *We will establish work hours and a setup <br>
+      that accommodate your schedule and <br>
+      requirements.</div>
+  <div class="box2"> </div>
+
+  <div>
+    <p  class="hourly"> <u>Hourly or Packageed Rates</u></p>
+    <p class="rates">*Hourly rates are available for projects that involve unpredictable or inconsistent <br>
+         tasks,providing flexibility to accommodate your needs as they develop.<br>
+         <br><br>
+         *Packaged rates offer
+        a more cost-effective solution for ongoing support and reliable assistance.</p>
+  </div>
+  <div>
+    <img src="page6.jpg" class="page6">
+  </div>
+  <div><p class="team">Do you think we would make a better team<p></p></div>
+  <div><h4 class="with">Work</h4>  <br>
+    <h1 class="withme">WITH ME</h1></div>
+  <div class="call">SCHEDULE A CALL WITH ME</div>
+  <div class="one">1</div>
+  <div><p class="explo">Exploratory Call or Interview</p>
+<p class="explos">Let's schedule a call to get to know other better and discuss your goals and expectation.</p></div>
+  <div class="two">2</div>
+  <div><p class="agree">Agreement Discussion and Contract Signing</p>
+ <p class="agrees">I will prepare a formal proposal tailored to your goals and the service you required. <br>
+    we can review and fine-tune it together untill we arrive at a mutually beneficial agreement.</p></div>
+  <div class="three">3</div>
+  <div><p class="initiate">Initiating Meeting/Orientation</p>
+<p class="initiates">Let's wrap our plan, synchronize our expectations, and kick things off.</p></div>
+
+<div ><button class="calls" title="Book a Call" onclick="inforamtion()">Book a Call</button></div>
+<Script>
+    function inforamtion(){
+        window.location.href="information.html";
+    }
+</Script>
+
+
+
+
+
+</div>
+
+</body>
+</html> 
